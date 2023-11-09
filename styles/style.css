@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+h1 {
+    text-align: center;
+    margin: 20px 20px;
+    font-family:fantasy
+}
+
+.container-item {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.filter {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+.bugBtn {
+    background-image: url('/PROYECTO POKEAPI/styles/icons/Bug.png');
+    background-size: cover;
+    background-color: transparent;
+    width: 45px;
+    height: 45px; 
+    border: none; 
+    cursor: pointer;
+}
+.darkBtn {
+    background-image: url('/PROYECTO POKEAPI/styles/icons/Dark.png');
+    background-size: cover;
+    background-color: transparent;
+    width: 45px;
+    height: 45px; 
+    border: none; 
+    cursor: pointer;
+}
+.electricBtn {
+    background-image: url('/PROYECTO POKEAPI/styles/icons/Electric.png');
+    background-size: cover;
+    background-color: transparent;
+    width: 45px;
+    height: 45px; 
+    border: none; 
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.filterIcon {
+    display: flex;
+}
+#pokedex {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+figure {
+    width: 80%;
+}
+.pokeImg {
+    max-width: 100%;
+    height: auto;
+}
