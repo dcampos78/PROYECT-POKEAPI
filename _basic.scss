@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+h2, h3{
+    color: white;
+    text-decoration:underline;
+}
+p {
+    margin: 7px 7px;
+    border: 3px dotted goldenrod;
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-weight: bolder;
+}
+
+// media-queries
+@media (min-width: 411px) {
+    .container-pokedex-figure {
+        width: 45%;
+    }
+}
+@media (min-width: 576pxpx) {
+   
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 820px) {
+    p {
+        font-size: 25px;
+        margin: 15px 15px;
+        border: 10px dotted goldenrod;
+    }
+}
+@media (min-width: 992px) {
+  
+}
+@media (min-width: 1200px){
+
+}
+

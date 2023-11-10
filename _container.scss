@@ -1,0 +1,157 @@
+.container-item {
+    padding-top: 5px;
+    display: flex;
+    width: 100vw;
+    background-image: url('/PROYECTO POKEAPI/styles/icons/Pokemon_Elements_1920x1200.jpg');
+    &-filter {
+        width: 10vw;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        &-btn {
+            display: flex;
+            flex-direction: column;
+            &-bug, &-dark, &-electric, &-fairy, &-fighting, &-fire, &-ghost, &-grass, &-ground, &-ice, &-normal, &-poison, &-physic, &-rock, &-steel, &-water {
+                transition: transform .10s; 
+                margin-left: 0;
+                width: 35px;
+                height: 35px;
+                background-size: cover;
+                background-color: transparent;
+                border: none; 
+                cursor: pointer;
+            }
+            &-bug {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Bug.png');
+            }
+            &-dark {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Dark.png');
+            }
+            &-electric {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Electric.png');
+            }
+            &-fairy {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Fairy.png');
+            }
+            &-fighting {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Fighting.png');
+            }
+            &-fire {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Fire.png');
+            }
+            &-ghost {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Ghost.png');
+            }
+            &-grass {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Grass.png');
+            }
+            &-ground {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Ground.png');
+            }
+            &-ice {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Ice.png');
+            }
+            &-normal {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Normal.png');
+            }
+            &-poison{
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Poison.png');
+            }
+            &-physic {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Psychic.png');
+            }
+            &-rock {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Rock.png');
+            }
+            &-steel {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Steel.png');
+            }
+            &-water {
+                background-image: url('/PROYECTO POKEAPI/styles/icons/Water.png');
+            }
+            &-bug:hover, &-dark:hover, &-electric:hover, &-fairy:hover, &-fighting:hover, &-fire:hover, &-ghost:hover, &-grass:hover, &-ground:hover, &-ice:hover, &-normal:hover, &-poison:hover, &-physic:hover, &-rock:hover, &-steel:hover, &-water:hover {
+                transform: scale(1.5);
+            }
+        }
+    }
+}
+.container-pokedex {
+    width: 90vw;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    &-figure {
+        width: 90%;
+        margin: 15px 5px 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('/PROYECTO POKEAPI/styles/icons/580b57fcd9996e24bc43c31e.png'); 
+        background-repeat: no-repeat;
+        background-size:60%;
+        background-color: transparent;
+        &-pokeImg {
+            max-width: 70%;
+            height: auto;
+        }
+    }
+}
+// media-queries
+@media (min-width: 411px) {
+    .container-pokedex-figure {
+        width: 45%;
+    }
+}
+@media (min-width: 576pxpx) {
+   
+}
+@media (min-width: 768px) {
+    .container-item-filter {
+        width: 4vh;
+        &-btn {
+            flex-wrap: wrap;
+            &-bug, &-dark, &-electric, &-fairy, &-fighting, &-fire, &-ghost, &-grass, &-ground, &-ice, &-normal, &-poison, &-physic, &-rock, &-steel, &-water {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+@media (min-width: 820px) {
+    .container-item-filter {
+        width: 9vh;
+        &-btn-bug, &-btn-dark, &-btn-electric, &-btn-fairy, &-btn-fighting, &-btn-fire, &-btn-ghost, &-btn-grass, &-btn-ground, &-btn-ice, &-btn-normal, &-btn-poison, &-btn-physic, &-btn-rock, &-btn-steel, &-btn-water {
+            width: 55px;
+            height: 55px;
+        }   
+    }
+    .container-pokedex-figure {
+        width: 32%;
+    }
+}
+@media (min-width: 912px) {
+    .container-item-filter {
+        width: 4vh;
+        &-btn-bug, &-btn-dark, &-btn-electric, &-btn-fairy, &-btn-fighting, &-btn-fire, &-btn-ghost, &-btn-grass, &-btn-ground, &-btn-ice, &-btn-normal, &-btn-poison, &-btn-physic, &-btn-rock, &-btn-steel, &-btn-water {
+            width: 60px;
+            height: 60px;
+        }   
+    }
+    .container-pokedex-figure {
+        width: 20%;
+    }
+}
+@media (min-width: 1024px){
+    .container-item-filter {
+        width: 4vh;
+        &-btn-bug, &-btn-dark, &-btn-electric, &-btn-fairy, &-btn-fighting, &-btn-fire, &-btn-ghost, &-btn-grass, &-btn-ground, &-btn-ice, &-btn-normal, &-btn-poison, &-btn-physic, &-btn-rock, &-btn-steel, &-btn-water {
+            width: 125px;
+            height: 125px;
+        } 
+    }
+}
+@media (min-width: 1200px){
+
+}
+
