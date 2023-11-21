@@ -70,6 +70,13 @@ button$$.addEventListener("blur", (event) => {
 event.target.style.background = "";
 });
 
+const buttonBug$$ =document.querySelector(".container-item-filter-btn-bug");
+const buttonDark$$ =document.querySelector(".container-item-filter-btn-bug");
+// buttonBug$$.addEventListener, ('click', bugBtn);
+// async function bugBtn(pokemons) {
+   
+
+
 async function inputBtn(data) {
     grill$$.innerHTML = ""; 
     try {
@@ -112,6 +119,7 @@ const init = async () => {
     grill$$.innerHTML = "";  
     // console.log(pokemonData);
     pokeDraw(pokemonData); 
+    
 }
 
 init();

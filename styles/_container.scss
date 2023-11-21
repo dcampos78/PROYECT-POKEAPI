@@ -2,7 +2,7 @@
     padding-top: 5px;
     display: flex;
     width: 100vw;
-    background-image: url('/PROYECTO POKEAPI/styles/icons/Pokemon_Elements_1920x1200.jpg');
+    background-image: url('/assets/images/Pokemon_Elements_1920x1200.jpg');
     &-filter {
         width: 10vw;
         position: fixed;
@@ -22,52 +22,53 @@
                 cursor: pointer;
             }
             &-bug {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Bug.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Bug.png');
+    
             }
             &-dark {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Dark.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Dark.png');
             }
             &-electric {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Electric.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Electric.png');
             }
             &-fairy {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Fairy.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Fairy.png');
             }
             &-fighting {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Fighting.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Fighting.png');
             }
             &-fire {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Fire.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Fire.png');
             }
             &-ghost {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Ghost.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Ghost.png');
             }
             &-grass {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Grass.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Grass.png');
             }
             &-ground {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Ground.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Ground.png');
             }
             &-ice {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Ice.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Ice.png');
             }
             &-normal {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Normal.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Normal.png');
             }
             &-poison{
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Poison.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Poison.png');
             }
             &-physic {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Psychic.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Psychic.png');
             }
             &-rock {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Rock.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Rock.png');
             }
             &-steel {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Steel.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Steel.png');
             }
             &-water {
-                background-image: url('/PROYECTO POKEAPI/styles/icons/Water.png');
+                background-image: url('/PROYECTO POKEAPI/assets/images/Water.png');
             }
             &-bug:hover, &-dark:hover, &-electric:hover, &-fairy:hover, &-fighting:hover, &-fire:hover, &-ghost:hover, &-grass:hover, &-ground:hover, &-ice:hover, &-normal:hover, &-poison:hover, &-physic:hover, &-rock:hover, &-steel:hover, &-water:hover {
                 transform: scale(1.5);
